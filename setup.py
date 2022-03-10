@@ -35,7 +35,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     scripts=['scripts/patternomatic.py'],
     install_requires=[
-        'spacy==2.3.0'
+        'spacy>=3.*'
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
